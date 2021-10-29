@@ -10,12 +10,16 @@
 		68FBB7BC26332DB5CA452602 /* Pods_tempmemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0388128C4D08C54AE77605FB /* Pods_tempmemo.framework */; };
 		7FD85019CBE796A1B67923DC /* Pods_tempmemo_tempmemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6B394CC7803CBE10B59E02 /* Pods_tempmemo_tempmemoUITests.framework */; };
 		80180CAD272976D400EE5C54 /* tempmemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180CAC272976D400EE5C54 /* tempmemoApp.swift */; };
-		80180CAF272976D400EE5C54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180CAE272976D400EE5C54 /* ContentView.swift */; };
 		80180CB1272976D800EE5C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180CB0272976D800EE5C54 /* Assets.xcassets */; };
 		80180CB4272976D800EE5C54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80180CB3272976D800EE5C54 /* Preview Assets.xcassets */; };
 		80180CBE272976D800EE5C54 /* tempmemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180CBD272976D800EE5C54 /* tempmemoTests.swift */; };
 		80180CC8272976D900EE5C54 /* tempmemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180CC7272976D900EE5C54 /* tempmemoUITests.swift */; };
 		80180CCA272976D900EE5C54 /* tempmemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80180CC9272976D900EE5C54 /* tempmemoUITestsLaunchTests.swift */; };
+		8018F912272C377E0015A39E /* ScrollableTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F911272C377E0015A39E /* ScrollableTabBar.swift */; };
+		8018F918272C446E0015A39E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F917272C446E0015A39E /* MainView.swift */; };
+		8018F91A272C4AD80015A39E /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F919272C4AD80015A39E /* RecordView.swift */; };
+		8018F91E272C4AEF0015A39E /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F91D272C4AEF0015A39E /* MemoView.swift */; };
+		8018F920272C4AFD0015A39E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8018F91F272C4AFD0015A39E /* SettingView.swift */; };
 		F92414E600ADB2F073168A61 /* Pods_tempmemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0872E04B3A8668B629126BE1 /* Pods_tempmemoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +50,6 @@
 		63D44A2FC9E4262CA36AD4EE /* Pods-tempmemo-tempmemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmemo-tempmemoUITests.release.xcconfig"; path = "Target Support Files/Pods-tempmemo-tempmemoUITests/Pods-tempmemo-tempmemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		80180CA9272976D400EE5C54 /* tempmemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempmemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80180CAC272976D400EE5C54 /* tempmemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmemoApp.swift; sourceTree = "<group>"; };
-		80180CAE272976D400EE5C54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80180CB0272976D800EE5C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80180CB3272976D800EE5C54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80180CB9272976D800EE5C54 /* tempmemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempmemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +58,11 @@
 		80180CC7272976D900EE5C54 /* tempmemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmemoUITests.swift; sourceTree = "<group>"; };
 		80180CC9272976D900EE5C54 /* tempmemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempmemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		80180D4227297B2800EE5C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8018F911272C377E0015A39E /* ScrollableTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabBar.swift; sourceTree = "<group>"; };
+		8018F917272C446E0015A39E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8018F919272C4AD80015A39E /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		8018F91D272C4AEF0015A39E /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		8018F91F272C4AFD0015A39E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		BC42597720AE7C52D5A17073 /* Pods-tempmemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmemoTests.release.xcconfig"; path = "Target Support Files/Pods-tempmemoTests/Pods-tempmemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA584F16B4FB08D2B5F00C39 /* Pods-tempmemo-tempmemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tempmemo-tempmemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-tempmemo-tempmemoUITests/Pods-tempmemo-tempmemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,8 +130,9 @@
 		80180CAB272976D400EE5C54 /* tempmemo */ = {
 			isa = PBXGroup;
 			children = (
+				8018F914272C37C40015A39E /* Model */,
+				8018F913272C37A30015A39E /* View */,
 				80180CAC272976D400EE5C54 /* tempmemoApp.swift */,
-				80180CAE272976D400EE5C54 /* ContentView.swift */,
 				80180D4227297B2800EE5C54 /* Info.plist */,
 				80180CB0272976D800EE5C54 /* Assets.xcassets */,
 				80180CB2272976D800EE5C54 /* Preview Content */,
@@ -154,6 +163,25 @@
 				80180CC9272976D900EE5C54 /* tempmemoUITestsLaunchTests.swift */,
 			);
 			path = tempmemoUITests;
+			sourceTree = "<group>";
+		};
+		8018F913272C37A30015A39E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8018F911272C377E0015A39E /* ScrollableTabBar.swift */,
+				8018F917272C446E0015A39E /* MainView.swift */,
+				8018F919272C4AD80015A39E /* RecordView.swift */,
+				8018F91D272C4AEF0015A39E /* MemoView.swift */,
+				8018F91F272C4AFD0015A39E /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8018F914272C37C40015A39E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BD18FDC649327F40F3469AD1 /* Pods */ = {
@@ -407,7 +435,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80180CAF272976D400EE5C54 /* ContentView.swift in Sources */,
+				8018F91E272C4AEF0015A39E /* MemoView.swift in Sources */,
+				8018F912272C377E0015A39E /* ScrollableTabBar.swift in Sources */,
+				8018F91A272C4AD80015A39E /* RecordView.swift in Sources */,
+				8018F920272C4AFD0015A39E /* SettingView.swift in Sources */,
+				8018F918272C446E0015A39E /* MainView.swift in Sources */,
 				80180CAD272976D400EE5C54 /* tempmemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
