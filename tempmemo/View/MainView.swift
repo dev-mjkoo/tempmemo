@@ -23,7 +23,7 @@ struct MainView: View {
         ScrollableTabBar(tabs: ["", "", ""], rect: frame, offset: $offset) {
           
           // 나중에 여기에 뷰 3개 넣으면 됨 ex) Home(), Setting(),
-          RecordView()
+          HistoryView()
           MemoView()
           SettingView()
           

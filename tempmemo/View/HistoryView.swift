@@ -1,5 +1,5 @@
 //
-//  RecordView.swift
+//  HistoryView.swift
 //  tempmemo
 //
 //  Created by 구민준 on 2021/10/30.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RecordView: View {
+struct HistoryView: View {
   var body: some View {
     VStack {
       //todo
@@ -17,8 +17,8 @@ struct RecordView: View {
   }
 }
 
-struct RecordView_Previews: PreviewProvider {
+struct HistoryView_Previews: PreviewProvider {
   static var previews: some View {
-    RecordView()
+    HistoryView()
   }
 }
